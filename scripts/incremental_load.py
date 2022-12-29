@@ -11,7 +11,6 @@ from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.hooks.base import BaseHook
 from airflow.models import Variable
-import subprocess
 apikey = Variable.get("apikey")
 apiint = Variable.get("apiint")
 tickers = Variable.get("tickers")
@@ -55,7 +54,7 @@ def get_daily_data():
     print(stock_id)
     get_daily_ticker_data(stock_id, apiint, dummy=False, output="data")
     # на стандартном (бесплатном) плане  ограничение 5 API запросов в минуту, поэтому спим между запросами
-    sleep(15)
+    sleep(20)
 
 def refresh_views():
   conn = psycopg2.connect(database=pg_conn.schema, user=pg_conn.login,
@@ -87,7 +86,7 @@ def refresh_mart():
 
   conn.close()
 
-with DAG(dag_id="a_incremental_load", start_date=datetime(2022, 12, 28), schedule="@once") as dag:
+with DAG(dag_id="a_incremental_load", start_date=datetime(2022, 12, 28), schedule="0 0 * * *", max_active_runs=1) as dag:
   get_daily_data_task = PythonOperator(task_id="get_daily_data", python_callable = get_daily_data)
   refresh_views_task = PythonOperator(task_id="refresh_views", python_callable = refresh_views)
   refresh_mart_task = PythonOperator(task_id="refresh_mart", python_callable = refresh_mart)

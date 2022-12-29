@@ -9,9 +9,10 @@ import psycopg2
 import psycopg2.sql
 from airflow import DAG
 from airflow.operators.python import PythonOperator
+from airflow.operators.postgres_operator import PostgresOperator
 from airflow.hooks.base import BaseHook
 from airflow.models import Variable
-import subprocess
+
 apikey = Variable.get("apikey")
 apiint = Variable.get("apiint")
 tickers = Variable.get("tickers")
@@ -56,14 +57,13 @@ def get_month_slice(stock_id, interval, slice, dummy=False, output=None):
 
 def load_ticker_data(ticker):
   # Загружает полный дамп данных за два года для данного тикера (24 куска помесячно)
-  #    for current_month in range(1, 13):
   for current_year in [1, 2]:
-    for current_month in range(1, 2):
+    for current_month in range(1, 13):
       month_slice = 'year' + str(current_year) + 'month' + str(current_month)
       print(ticker, month_slice)
       get_month_slice(ticker, apiint, month_slice, output="data")
       # на стандартном (бесплатном) плане  ограничение 5 API запросов в минуту, поэтому спим между запросами
-      sleep(15)
+      sleep(20)
 
 # Load full API data
 def load_data():
@@ -187,8 +187,24 @@ def create_mart(**kwargs):
   conn.commit()
   conn.close()
 
-with DAG(dag_id="a_initial_load", start_date=datetime(2022, 12, 28), schedule="@once") as dag:
+def create_database():
+  conn = psycopg2.connect(user=pg_conn.login,
+    password=pg_conn.password, host=pg_conn.host, port=pg_conn.port)
+
+  conn.autocommit = True
+  cursor = conn.cursor()
+
+  sql = "CREATE DATABASE " + pg_conn.schema
+  print(sql)
+  cursor.execute(sql)
+  conn.commit()
+
+  conn.close()
+
+
+with DAG(dag_id="a_initial_load", start_date=datetime(2022, 12, 28), schedule="@once", max_active_runs=1) as dag:
+  create_database_task = PythonOperator(task_id="create_database", python_callable = create_database)
   load_data_task = PythonOperator(task_id="load_data", python_callable = load_data)
   create_views_task = PythonOperator(task_id="create_views", python_callable = create_views)
   create_mart_task = PythonOperator(task_id="create_mart", op_kwargs={'dummy': False}, python_callable = create_mart)
-  load_data_task >> create_views_task >> create_mart_task
+  create_database_task >> load_data_task >> create_views_task >> create_mart_task
