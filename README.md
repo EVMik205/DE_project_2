@@ -39,19 +39,19 @@
 ```
               xxx      xx
            xxxx  xxxxx   xxx
-          x                 xxx                                             +--------------+
-      xxxxx                 x  xxx                +----------------+        |              |
-    xx                            x               |                |        |   Postgres   |
-    x     API Alpha Vantage       xxxx    ------> | Airflow DAGs   | <--->  |              |
- xxxxxx                               x           |                |        |      DB      |
-xx                                    x           +----------------+        |              |
-x                               x     x                                     +--------------+
+          x                 xxx                                             +---------------------------+
+      xxxxx                 x  xxx                +----------------+        |                           |
+    xx                            x               |                |        |   PostgresSQL DB          |
+    x     API Alpha Vantage       xxxx    ------> | Airflow DAGs   | <--->  |                           |
+ xxxxxx                               x           | 127.0.0.1:8080 |        | host.docker.internal:5430 |
+xx    https://www.alphavantage.co/    x           +----------------+        |                           |
+x                               x     x                                     +---------------------------+
 xx      xx         x            xxxxxx                    |
   xxxxxxxxx       xx          xxx                         v
            x xxx x xxxxxxxxxx                      +---------------+
                                                    |               |
                                                    |  CSV files    |
-                                                   |               |
+                                                   |  data/*.csv   |
                                                    +---------------+
 ```
 
