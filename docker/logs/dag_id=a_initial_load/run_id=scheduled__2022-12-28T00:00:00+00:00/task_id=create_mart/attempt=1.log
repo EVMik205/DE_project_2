@@ -1,0 +1,23 @@
+[2022-12-30T00:07:16.316+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: a_initial_load.create_mart scheduled__2022-12-28T00:00:00+00:00 [upstream_failed]>
+[2022-12-30T00:07:16.317+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: a_initial_load.create_mart scheduled__2022-12-28T00:00:00+00:00 [upstream_failed]>
+[2022-12-30T00:07:16.317+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-30T00:07:16.317+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 1
+[2022-12-30T00:07:16.317+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-30T00:07:16.331+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): create_mart> on 2022-12-28 00:00:00+00:00
+[2022-12-30T00:07:16.340+0000] {standard_task_runner.py:55} INFO - Started process 20483 to run task
+[2022-12-30T00:07:16.343+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'a_initial_load', 'create_mart', 'scheduled__2022-12-28T00:00:00+00:00', '--job-id', '33', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/initial_load.py', '--cfg-path', '/tmp/tmpp699lqt4']
+[2022-12-30T00:07:16.345+0000] {standard_task_runner.py:83} INFO - Job 33: Subtask create_mart
+[2022-12-30T00:07:16.397+0000] {task_command.py:389} INFO - Running <TaskInstance: a_initial_load.create_mart scheduled__2022-12-28T00:00:00+00:00 [running]> on host 617cc505ea19
+[2022-12-30T00:07:16.475+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=a_initial_load
+AIRFLOW_CTX_TASK_ID=create_mart
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-28T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-12-28T00:00:00+00:00
+[2022-12-30T00:07:21.028+0000] {python.py:177} INFO - Done. Returned value was: None
+[2022-12-30T00:07:21.038+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=a_initial_load, task_id=create_mart, execution_date=20221228T000000, start_date=20221230T000716, end_date=20221230T000721
+[2022-12-30T00:07:21.088+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2022-12-30T00:07:21.107+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

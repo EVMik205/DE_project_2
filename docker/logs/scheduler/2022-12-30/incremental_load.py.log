@@ -1,0 +1,521 @@
+[2022-12-30T00:00:16.237+0000] {processor.py:153} INFO - Started process (PID=34579) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:00:16.237+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:00:16.238+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:00:16.238+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:00:16.526+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:00:16.526+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:00:16.532+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:00:16.550+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:00:16.550+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:00:16.568+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:00:16.568+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-28T00:00:00+00:00, run_after=2022-12-29T00:00:00+00:00
+[2022-12-30T00:00:16.580+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.346 seconds
+[2022-12-30T00:00:46.628+0000] {processor.py:153} INFO - Started process (PID=34682) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:00:46.629+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:00:46.629+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:00:46.629+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:00:46.953+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:00:46.953+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:00:46.960+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:00:46.981+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:00:46.980+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:00:47.003+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:00:47.003+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-28T00:00:00+00:00, run_after=2022-12-29T00:00:00+00:00
+[2022-12-30T00:00:47.015+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.390 seconds
+[2022-12-30T00:01:17.554+0000] {processor.py:153} INFO - Started process (PID=34764) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:01:17.555+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:01:17.556+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:01:17.556+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:01:17.854+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:01:17.853+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:01:17.859+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:01:17.877+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:01:17.876+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:01:17.894+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:01:17.893+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-28T00:00:00+00:00, run_after=2022-12-29T00:00:00+00:00
+[2022-12-30T00:01:17.912+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.361 seconds
+[2022-12-30T00:01:48.817+0000] {processor.py:153} INFO - Started process (PID=34866) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:01:48.818+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:01:48.819+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:01:48.819+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:01:49.087+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:01:49.086+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:01:49.092+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:01:49.109+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:01:49.109+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:01:49.125+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:01:49.125+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-28T00:00:00+00:00, run_after=2022-12-29T00:00:00+00:00
+[2022-12-30T00:01:49.135+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.321 seconds
+[2022-12-30T00:02:19.333+0000] {processor.py:153} INFO - Started process (PID=34948) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:02:19.334+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:02:19.334+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:02:19.334+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:02:19.607+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:02:19.606+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:02:19.612+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:02:19.629+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:02:19.629+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:02:19.654+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:02:19.654+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-28T00:00:00+00:00, run_after=2022-12-29T00:00:00+00:00
+[2022-12-30T00:02:19.668+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.338 seconds
+[2022-12-30T00:02:49.888+0000] {processor.py:153} INFO - Started process (PID=35050) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:02:49.890+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:02:49.890+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:02:49.890+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:02:50.158+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:02:50.158+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:02:50.164+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:02:50.180+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:02:50.180+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:02:50.197+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:02:50.197+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-28T00:00:00+00:00, run_after=2022-12-29T00:00:00+00:00
+[2022-12-30T00:02:50.213+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.328 seconds
+[2022-12-30T00:03:20.290+0000] {processor.py:153} INFO - Started process (PID=35141) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:03:20.291+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:03:20.291+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:03:20.291+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:03:20.593+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:03:20.592+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:03:20.603+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:03:20.652+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:03:20.652+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:03:20.669+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:03:20.669+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-28T00:00:00+00:00, run_after=2022-12-29T00:00:00+00:00
+[2022-12-30T00:03:20.692+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.405 seconds
+[2022-12-30T00:03:51.198+0000] {processor.py:153} INFO - Started process (PID=35234) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:03:51.198+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:03:51.199+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:03:51.199+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:03:51.502+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:03:51.501+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:03:51.507+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:03:51.525+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:03:51.524+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:03:51.541+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:03:51.541+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-28T00:00:00+00:00, run_after=2022-12-29T00:00:00+00:00
+[2022-12-30T00:03:51.552+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.358 seconds
+[2022-12-30T00:04:21.790+0000] {processor.py:153} INFO - Started process (PID=35336) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:04:21.790+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:04:21.791+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:04:21.791+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:04:22.091+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:04:22.090+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:04:22.097+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:04:22.115+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:04:22.115+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:04:22.133+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:04:22.133+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-28T00:00:00+00:00, run_after=2022-12-29T00:00:00+00:00
+[2022-12-30T00:04:22.143+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.356 seconds
+[2022-12-30T00:04:52.497+0000] {processor.py:153} INFO - Started process (PID=35418) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:04:52.499+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:04:52.499+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:04:52.499+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:04:52.777+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:04:52.776+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:04:52.783+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:04:52.804+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:04:52.803+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:04:52.822+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:04:52.822+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-28T00:00:00+00:00, run_after=2022-12-29T00:00:00+00:00
+[2022-12-30T00:04:52.832+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.338 seconds
+[2022-12-30T00:05:23.798+0000] {processor.py:153} INFO - Started process (PID=35520) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:05:23.806+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:05:23.807+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:05:23.807+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:05:24.079+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:05:24.078+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:05:24.086+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:05:24.104+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:05:24.104+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:05:24.121+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:05:24.121+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-28T00:00:00+00:00, run_after=2022-12-29T00:00:00+00:00
+[2022-12-30T00:05:24.133+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.338 seconds
+[2022-12-30T00:05:54.181+0000] {processor.py:153} INFO - Started process (PID=35611) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:05:54.181+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:05:54.182+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:05:54.182+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:05:54.464+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:05:54.463+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:05:54.469+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:05:54.487+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:05:54.487+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:05:54.504+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:05:54.504+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-28T00:00:00+00:00, run_after=2022-12-29T00:00:00+00:00
+[2022-12-30T00:05:54.523+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.345 seconds
+[2022-12-30T00:06:24.860+0000] {processor.py:153} INFO - Started process (PID=35704) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:06:24.867+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:06:24.867+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:06:24.867+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:06:25.139+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:06:25.139+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:06:25.146+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:06:25.162+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:06:25.162+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:06:25.179+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:06:25.179+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-28T00:00:00+00:00, run_after=2022-12-29T00:00:00+00:00
+[2022-12-30T00:06:25.189+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.333 seconds
+[2022-12-30T00:06:56.087+0000] {processor.py:153} INFO - Started process (PID=35806) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:06:56.088+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:06:56.088+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:06:56.088+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:06:56.357+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:06:56.357+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:06:56.363+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:06:56.379+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:06:56.379+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:06:56.397+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:06:56.397+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-28T00:00:00+00:00, run_after=2022-12-29T00:00:00+00:00
+[2022-12-30T00:06:56.407+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.323 seconds
+[2022-12-30T00:07:27.154+0000] {processor.py:153} INFO - Started process (PID=35888) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:07:27.155+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:07:27.155+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:07:27.155+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:07:27.433+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:07:27.433+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:07:27.439+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:07:27.456+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:07:27.455+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:07:27.473+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:07:27.473+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-28T00:00:00+00:00, run_after=2022-12-29T00:00:00+00:00
+[2022-12-30T00:07:27.485+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.334 seconds
+[2022-12-30T00:07:57.854+0000] {processor.py:153} INFO - Started process (PID=35990) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:07:57.855+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:07:57.855+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:07:57.855+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:07:58.135+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:07:58.135+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:07:58.141+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:07:58.158+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:07:58.158+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:07:58.177+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:07:58.176+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-28T00:00:00+00:00, run_after=2022-12-29T00:00:00+00:00
+[2022-12-30T00:07:58.190+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.339 seconds
+[2022-12-30T00:08:28.269+0000] {processor.py:153} INFO - Started process (PID=36081) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:08:28.270+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:08:28.270+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:08:28.270+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:08:28.567+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:08:28.566+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:08:28.576+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:08:28.597+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:08:28.597+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:08:28.616+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:08:28.616+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-28T00:00:00+00:00, run_after=2022-12-29T00:00:00+00:00
+[2022-12-30T00:08:28.626+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.360 seconds
+[2022-12-30T00:08:58.876+0000] {processor.py:153} INFO - Started process (PID=36174) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:08:58.883+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:08:58.884+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:08:58.884+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:08:59.164+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:08:59.163+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:08:59.169+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:08:59.186+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:08:59.185+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:08:59.203+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:08:59.203+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-28T00:00:00+00:00, run_after=2022-12-29T00:00:00+00:00
+[2022-12-30T00:08:59.213+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.340 seconds
+[2022-12-30T00:09:29.591+0000] {processor.py:153} INFO - Started process (PID=36276) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:09:29.592+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:09:29.593+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:09:29.593+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:09:29.864+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:09:29.864+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:09:29.870+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:09:29.887+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:09:29.886+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:09:29.903+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:09:29.903+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-28T00:00:00+00:00, run_after=2022-12-29T00:00:00+00:00
+[2022-12-30T00:09:29.914+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.326 seconds
+[2022-12-30T00:10:00.197+0000] {processor.py:153} INFO - Started process (PID=36358) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:10:00.198+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:10:00.199+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:10:00.199+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:10:00.476+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:10:00.475+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:10:00.481+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:10:00.500+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:10:00.500+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:10:00.517+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:10:00.517+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-28T00:00:00+00:00, run_after=2022-12-29T00:00:00+00:00
+[2022-12-30T00:10:00.533+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.339 seconds
+[2022-12-30T00:10:30.770+0000] {processor.py:153} INFO - Started process (PID=36460) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:10:30.777+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:10:30.777+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:10:30.777+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:10:31.050+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:10:31.049+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:10:31.056+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:10:31.074+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:10:31.073+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:10:31.091+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:10:31.091+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-28T00:00:00+00:00, run_after=2022-12-29T00:00:00+00:00
+[2022-12-30T00:10:31.108+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.341 seconds
+[2022-12-30T00:11:01.170+0000] {processor.py:153} INFO - Started process (PID=36542) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:11:01.176+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:11:01.177+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:11:01.177+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:11:01.460+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:11:01.459+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:11:01.466+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:11:01.483+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:11:01.482+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:11:01.501+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:11:01.501+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-28T00:00:00+00:00, run_after=2022-12-29T00:00:00+00:00
+[2022-12-30T00:11:01.522+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.356 seconds
+[2022-12-30T00:11:31.722+0000] {processor.py:153} INFO - Started process (PID=36644) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:11:31.722+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:11:31.723+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:11:31.723+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:11:31.997+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:11:31.997+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:11:32.003+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:11:32.020+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:11:32.019+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:11:32.036+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:11:32.036+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-28T00:00:00+00:00, run_after=2022-12-29T00:00:00+00:00
+[2022-12-30T00:11:32.058+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.340 seconds
+[2022-12-30T00:12:03.049+0000] {processor.py:153} INFO - Started process (PID=36746) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:12:03.049+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:12:03.050+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:12:03.050+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:12:03.330+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:12:03.330+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:12:03.336+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:12:03.353+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:12:03.353+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:12:03.371+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:12:03.371+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-28T00:00:00+00:00, run_after=2022-12-29T00:00:00+00:00
+[2022-12-30T00:12:03.382+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.336 seconds
+[2022-12-30T00:12:33.564+0000] {processor.py:153} INFO - Started process (PID=36828) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:12:33.565+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:12:33.565+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:12:33.565+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:12:33.840+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:12:33.840+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:12:33.846+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:12:33.862+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:12:33.862+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:12:33.879+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:12:33.879+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-28T00:00:00+00:00, run_after=2022-12-29T00:00:00+00:00
+[2022-12-30T00:12:33.897+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.336 seconds
+[2022-12-30T00:13:04.024+0000] {processor.py:153} INFO - Started process (PID=36930) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:13:04.025+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:13:04.026+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:13:04.026+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:13:04.303+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:13:04.302+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:13:04.309+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:13:04.329+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:13:04.329+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:13:04.354+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.333 seconds
+[2022-12-30T00:13:34.424+0000] {processor.py:153} INFO - Started process (PID=37012) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:13:34.425+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:13:34.425+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:13:34.425+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:13:34.702+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:13:34.701+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:13:34.709+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:13:34.727+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:13:34.727+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:13:34.754+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.332 seconds
+[2022-12-30T00:14:04.802+0000] {processor.py:153} INFO - Started process (PID=37114) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:14:04.804+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:14:04.804+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:14:04.804+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:14:05.088+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:14:05.088+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:14:05.094+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:14:05.111+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:14:05.111+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:14:05.148+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.348 seconds
+[2022-12-30T00:14:35.410+0000] {processor.py:153} INFO - Started process (PID=37216) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:14:35.412+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:14:35.412+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:14:35.412+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:14:35.712+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:14:35.712+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:14:35.718+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:14:35.735+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:14:35.735+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:14:35.763+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.355 seconds
+[2022-12-30T00:15:05.817+0000] {processor.py:153} INFO - Started process (PID=37298) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:15:05.817+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:15:05.817+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:15:05.817+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:15:06.101+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:15:06.100+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:15:06.108+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:15:06.126+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:15:06.126+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:15:06.156+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.342 seconds
+[2022-12-30T00:15:36.185+0000] {processor.py:153} INFO - Started process (PID=37400) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:15:36.186+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:15:36.186+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:15:36.186+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:15:36.467+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:15:36.466+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:15:36.472+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:15:36.490+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:15:36.490+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:15:36.527+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.345 seconds
+[2022-12-30T00:16:07.071+0000] {processor.py:153} INFO - Started process (PID=37482) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:16:07.072+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:16:07.073+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:16:07.072+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:16:07.353+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:16:07.352+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:16:07.359+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:16:07.379+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:16:07.379+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:16:07.410+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.341 seconds
+[2022-12-30T00:16:37.561+0000] {processor.py:153} INFO - Started process (PID=37584) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:16:37.562+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:16:37.562+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:16:37.562+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:16:37.848+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:16:37.848+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:16:37.854+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:16:37.870+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:16:37.870+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:16:37.899+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.340 seconds
+[2022-12-30T00:17:08.013+0000] {processor.py:153} INFO - Started process (PID=37666) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:17:08.020+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:17:08.021+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:17:08.020+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:17:08.326+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:17:08.325+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:17:08.333+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:17:08.353+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:17:08.353+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:17:08.382+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.371 seconds
+[2022-12-30T00:17:38.693+0000] {processor.py:153} INFO - Started process (PID=37768) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:17:38.695+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:17:38.695+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:17:38.695+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:17:38.986+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:17:38.985+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:17:38.992+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:17:39.013+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:17:39.012+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:17:39.040+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.349 seconds
+[2022-12-30T00:18:09.132+0000] {processor.py:153} INFO - Started process (PID=37871) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:18:09.139+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:18:09.140+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:18:09.140+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:18:09.486+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:18:09.485+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:18:09.492+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:18:09.512+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:18:09.511+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:18:09.546+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.417 seconds
+[2022-12-30T00:18:39.594+0000] {processor.py:153} INFO - Started process (PID=37954) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:18:39.594+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:18:39.595+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:18:39.595+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:18:39.884+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:18:39.884+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:18:39.890+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:18:39.908+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:18:39.908+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:18:39.941+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.351 seconds
+[2022-12-30T00:19:10.239+0000] {processor.py:153} INFO - Started process (PID=38056) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:19:10.240+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:19:10.241+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:19:10.241+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:19:10.532+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:19:10.531+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:19:10.538+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:19:10.556+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:19:10.555+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:19:10.582+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.346 seconds
+[2022-12-30T00:19:40.940+0000] {processor.py:153} INFO - Started process (PID=38138) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:19:40.941+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:19:40.941+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:19:40.941+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:19:41.240+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:19:41.239+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:19:41.250+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:19:41.268+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:19:41.268+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:19:41.304+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.367 seconds
+[2022-12-30T00:20:11.708+0000] {processor.py:153} INFO - Started process (PID=38240) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:20:11.715+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:20:11.716+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:20:11.716+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:20:12.007+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:20:12.006+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:20:12.013+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:20:12.030+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:20:12.030+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:20:12.066+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.361 seconds
+[2022-12-30T00:20:42.444+0000] {processor.py:153} INFO - Started process (PID=38322) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:20:42.451+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:20:42.452+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:20:42.452+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:20:42.784+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:20:42.784+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:20:42.790+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:20:42.808+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:20:42.808+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:20:42.834+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:20:42.834+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-30T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2022-12-30T00:20:42.844+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.403 seconds
+[2022-12-30T00:21:12.877+0000] {processor.py:153} INFO - Started process (PID=38425) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:21:12.884+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:21:12.884+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:21:12.884+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:21:13.179+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:21:13.178+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:21:13.187+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:21:13.206+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:21:13.206+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:21:13.225+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:21:13.225+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-30T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2022-12-30T00:21:13.237+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.364 seconds
+[2022-12-30T00:21:43.664+0000] {processor.py:153} INFO - Started process (PID=38528) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:21:43.665+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:21:43.665+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:21:43.665+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:21:43.989+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:21:43.989+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:21:43.996+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:21:44.016+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:21:44.016+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:21:44.035+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:21:44.035+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-30T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2022-12-30T00:21:44.046+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.385 seconds
+[2022-12-30T00:22:14.977+0000] {processor.py:153} INFO - Started process (PID=38610) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:22:14.979+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:22:14.979+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:22:14.979+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:22:15.271+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:22:15.270+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:22:15.278+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:22:15.297+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:22:15.296+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:22:15.316+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:22:15.316+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-30T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2022-12-30T00:22:15.330+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.356 seconds
+[2022-12-30T00:22:45.507+0000] {processor.py:153} INFO - Started process (PID=38712) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:22:45.514+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:22:45.514+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:22:45.514+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:22:45.811+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:22:45.811+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:22:45.817+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:22:45.836+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:22:45.835+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:22:45.854+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:22:45.854+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-30T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2022-12-30T00:22:45.865+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.360 seconds
+[2022-12-30T00:23:16.503+0000] {processor.py:153} INFO - Started process (PID=38794) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:23:16.504+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:23:16.505+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:23:16.505+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:23:16.801+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:23:16.801+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:23:16.807+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:23:16.828+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:23:16.827+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:23:16.846+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:23:16.845+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-30T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2022-12-30T00:23:16.858+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.357 seconds
+[2022-12-30T00:23:47.238+0000] {processor.py:153} INFO - Started process (PID=38896) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:23:47.238+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:23:47.239+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:23:47.239+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:23:47.538+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:23:47.537+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:23:47.547+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:23:47.566+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:23:47.566+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:23:47.587+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:23:47.586+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-30T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2022-12-30T00:23:47.599+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.364 seconds
+[2022-12-30T00:24:17.769+0000] {processor.py:153} INFO - Started process (PID=38987) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:24:17.770+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:24:17.770+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:24:17.770+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:24:18.088+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:24:18.087+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:24:18.094+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:24:18.115+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:24:18.115+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:24:18.136+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:24:18.136+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-30T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2022-12-30T00:24:18.157+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.390 seconds
+[2022-12-30T00:24:48.820+0000] {processor.py:153} INFO - Started process (PID=39080) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:24:48.822+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:24:48.822+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:24:48.822+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:24:49.115+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:24:49.114+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:24:49.121+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:24:49.140+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:24:49.140+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:24:49.158+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:24:49.158+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-30T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2022-12-30T00:24:49.170+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.355 seconds
+[2022-12-30T00:25:19.320+0000] {processor.py:153} INFO - Started process (PID=39182) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:25:19.321+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:25:19.322+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:25:19.322+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:25:19.613+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:25:19.612+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:25:19.618+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:25:19.637+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:25:19.636+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:25:19.655+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:25:19.655+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-30T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2022-12-30T00:25:19.669+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.351 seconds
+[2022-12-30T00:25:49.961+0000] {processor.py:153} INFO - Started process (PID=39264) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:25:49.962+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:25:49.962+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:25:49.962+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:25:50.265+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:25:50.265+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:25:50.273+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:25:50.294+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:25:50.293+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:25:50.316+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:25:50.315+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-30T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2022-12-30T00:25:50.327+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.369 seconds
+[2022-12-30T00:26:20.416+0000] {processor.py:153} INFO - Started process (PID=39366) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:26:20.417+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:26:20.417+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:26:20.417+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:26:20.706+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:26:20.705+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:26:20.713+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:26:20.731+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:26:20.731+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:26:20.753+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:26:20.752+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-30T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2022-12-30T00:26:20.766+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.353 seconds
+[2022-12-30T00:26:51.210+0000] {processor.py:153} INFO - Started process (PID=39448) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:26:51.210+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:26:51.211+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:26:51.211+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:26:51.503+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:26:51.502+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:26:51.509+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:26:51.527+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:26:51.527+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:26:51.546+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:26:51.546+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-30T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2022-12-30T00:26:51.566+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.359 seconds
+[2022-12-30T00:27:22.314+0000] {processor.py:153} INFO - Started process (PID=39551) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:27:22.316+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:27:22.316+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:27:22.316+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:27:22.620+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:27:22.619+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:27:22.629+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:27:22.649+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:27:22.649+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:27:22.669+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:27:22.669+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-30T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2022-12-30T00:27:22.685+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.373 seconds
+[2022-12-30T00:27:52.878+0000] {processor.py:153} INFO - Started process (PID=39653) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:27:52.885+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:27:52.886+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:27:52.886+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:27:53.222+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:27:53.221+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:27:53.229+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:27:53.249+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:27:53.249+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:27:53.274+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:27:53.273+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-30T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2022-12-30T00:27:53.286+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.410 seconds
+[2022-12-30T00:28:24.046+0000] {processor.py:153} INFO - Started process (PID=39735) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:28:24.053+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:28:24.054+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:28:24.054+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:28:24.357+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:28:24.356+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:28:24.363+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:28:24.384+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:28:24.383+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:28:24.404+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:28:24.404+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-30T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2022-12-30T00:28:24.416+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.373 seconds
+[2022-12-30T00:28:54.832+0000] {processor.py:153} INFO - Started process (PID=39837) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:28:54.834+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:28:54.834+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:28:54.834+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:28:55.239+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:28:55.238+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:28:55.245+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:28:55.266+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:28:55.266+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:28:55.287+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:28:55.287+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-30T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2022-12-30T00:28:55.300+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.470 seconds
+[2022-12-30T00:29:26.030+0000] {processor.py:153} INFO - Started process (PID=39919) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:29:26.030+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:29:26.031+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:29:26.030+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:29:26.353+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:29:26.352+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:29:26.359+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:29:26.379+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:29:26.378+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:29:26.398+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:29:26.398+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-30T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2022-12-30T00:29:26.413+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.386 seconds
+[2022-12-30T00:29:57.268+0000] {processor.py:153} INFO - Started process (PID=40021) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:29:57.276+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:29:57.276+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:29:57.276+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:29:57.580+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:29:57.579+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:29:57.585+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:29:57.603+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:29:57.603+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:29:57.622+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:29:57.622+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-30T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2022-12-30T00:29:57.640+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.374 seconds
+[2022-12-30T00:30:27.773+0000] {processor.py:153} INFO - Started process (PID=40112) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:30:27.774+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:30:27.774+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:30:27.774+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:30:28.085+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:30:28.084+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:30:28.091+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:30:28.110+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:30:28.110+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:30:28.131+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:30:28.131+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-30T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2022-12-30T00:30:28.143+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.372 seconds
+[2022-12-30T00:30:58.314+0000] {processor.py:153} INFO - Started process (PID=40205) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:30:58.315+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:30:58.316+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:30:58.316+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:30:58.603+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:30:58.602+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:30:58.609+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:30:58.627+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:30:58.627+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:30:58.644+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:30:58.644+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-30T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2022-12-30T00:30:58.656+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.344 seconds
+[2022-12-30T00:31:28.803+0000] {processor.py:153} INFO - Started process (PID=40307) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:31:28.804+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:31:28.805+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:31:28.805+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:31:29.118+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:31:29.117+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:31:29.124+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:31:29.149+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:31:29.148+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:31:29.171+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:31:29.171+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-30T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2022-12-30T00:31:29.186+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.386 seconds
+[2022-12-30T00:31:59.565+0000] {processor.py:153} INFO - Started process (PID=40390) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:31:59.565+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:31:59.566+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:31:59.566+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:31:59.866+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:31:59.865+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:31:59.872+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:31:59.890+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:31:59.889+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:31:59.909+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:31:59.909+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-30T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2022-12-30T00:31:59.922+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.361 seconds
+[2022-12-30T00:32:30.020+0000] {processor.py:153} INFO - Started process (PID=40492) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:32:30.021+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:32:30.022+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:32:30.022+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:32:30.318+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:32:30.318+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:32:30.324+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:32:30.343+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:32:30.342+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:32:30.361+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:32:30.361+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-30T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2022-12-30T00:32:30.380+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.364 seconds
+[2022-12-30T00:33:01.238+0000] {processor.py:153} INFO - Started process (PID=40574) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:33:01.245+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:33:01.245+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:33:01.245+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:33:01.541+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:33:01.540+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:33:01.547+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:33:01.568+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:33:01.567+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:33:01.588+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:33:01.588+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-30T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2022-12-30T00:33:01.604+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.369 seconds
+[2022-12-30T00:33:31.933+0000] {processor.py:153} INFO - Started process (PID=40676) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:33:31.934+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:33:31.935+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:33:31.935+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:33:32.227+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:33:32.226+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:33:32.233+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:33:32.251+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:33:32.251+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:33:32.270+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:33:32.270+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-30T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2022-12-30T00:33:32.282+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.351 seconds
+[2022-12-30T00:34:02.450+0000] {processor.py:153} INFO - Started process (PID=40758) to work on /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:34:02.451+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/incremental_load.py for tasks to queue
+[2022-12-30T00:34:02.452+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:34:02.452+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:34:02.766+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:34:02.765+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:34:02.771+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_incremental_load']) retrieved from /opt/airflow/dags/incremental_load.py
+[2022-12-30T00:34:02.794+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:34:02.793+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:34:02.813+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:34:02.813+0000] {dag.py:3427} INFO - Setting next_dagrun for a_incremental_load to 2022-12-30T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2022-12-30T00:34:02.827+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/incremental_load.py took 0.381 seconds

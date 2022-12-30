@@ -1,0 +1,37 @@
+[2022-12-30T00:00:25.991+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: a_initial_load.create_views scheduled__2022-12-28T00:00:00+00:00 [failed]>
+[2022-12-30T00:00:25.992+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: a_initial_load.create_views scheduled__2022-12-28T00:00:00+00:00 [failed]>
+[2022-12-30T00:00:25.992+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-30T00:00:25.992+0000] {taskinstance.py:1284} INFO - Starting attempt 2 of 1
+[2022-12-30T00:00:25.992+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-30T00:00:26.004+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): create_views> on 2022-12-28 00:00:00+00:00
+[2022-12-30T00:00:26.013+0000] {standard_task_runner.py:55} INFO - Started process 19774 to run task
+[2022-12-30T00:00:26.016+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'a_initial_load', 'create_views', 'scheduled__2022-12-28T00:00:00+00:00', '--job-id', '30', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/initial_load.py', '--cfg-path', '/tmp/tmpv3ac5gho']
+[2022-12-30T00:00:26.017+0000] {standard_task_runner.py:83} INFO - Job 30: Subtask create_views
+[2022-12-30T00:00:26.072+0000] {task_command.py:389} INFO - Running <TaskInstance: a_initial_load.create_views scheduled__2022-12-28T00:00:00+00:00 [running]> on host 617cc505ea19
+[2022-12-30T00:00:26.134+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=a_initial_load
+AIRFLOW_CTX_TASK_ID=create_views
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-28T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-12-28T00:00:00+00:00
+[2022-12-30T00:00:26.135+0000] {logging_mixin.py:137} INFO - AAPL
+[2022-12-30T00:00:26.143+0000] {taskinstance.py:1772} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/initial_load.py", line 114, in create_views
+    create_view(stock_id)
+  File "/opt/airflow/dags/initial_load.py", line 107, in create_view
+    temp_table_wtime=psycopg2.sql.Identifier(temp_table_wtime)))
+psycopg2.errors.DuplicateTable: relation "aaplview" already exists
+
+[2022-12-30T00:00:26.151+0000] {taskinstance.py:1327} INFO - Marking task as FAILED. dag_id=a_initial_load, task_id=create_views, execution_date=20221228T000000, start_date=20221230T000025, end_date=20221230T000026
+[2022-12-30T00:00:26.162+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 30 for task create_views (relation "aaplview" already exists
+; 19774)
+[2022-12-30T00:00:26.187+0000] {local_task_job.py:159} INFO - Task exited with return code 1
+[2022-12-30T00:00:26.206+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,33 @@
+[2022-12-30T00:06:39.502+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: a_initial_load.create_views scheduled__2022-12-28T00:00:00+00:00 [failed]>
+[2022-12-30T00:06:39.503+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: a_initial_load.create_views scheduled__2022-12-28T00:00:00+00:00 [failed]>
+[2022-12-30T00:06:39.503+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-30T00:06:39.503+0000] {taskinstance.py:1284} INFO - Starting attempt 4 of 1
+[2022-12-30T00:06:39.503+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-30T00:06:39.516+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): create_views> on 2022-12-28 00:00:00+00:00
+[2022-12-30T00:06:39.523+0000] {standard_task_runner.py:55} INFO - Started process 20420 to run task
+[2022-12-30T00:06:39.527+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'a_initial_load', 'create_views', 'scheduled__2022-12-28T00:00:00+00:00', '--job-id', '32', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/initial_load.py', '--cfg-path', '/tmp/tmpylhiwguw']
+[2022-12-30T00:06:39.528+0000] {standard_task_runner.py:83} INFO - Job 32: Subtask create_views
+[2022-12-30T00:06:39.586+0000] {task_command.py:389} INFO - Running <TaskInstance: a_initial_load.create_views scheduled__2022-12-28T00:00:00+00:00 [running]> on host 617cc505ea19
+[2022-12-30T00:06:39.644+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=a_initial_load
+AIRFLOW_CTX_TASK_ID=create_views
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-28T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=4
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-12-28T00:00:00+00:00
+[2022-12-30T00:06:39.644+0000] {logging_mixin.py:137} INFO - AAPL
+[2022-12-30T00:06:41.556+0000] {logging_mixin.py:137} INFO - GOOGL
+[2022-12-30T00:06:42.977+0000] {logging_mixin.py:137} INFO - MSFT
+[2022-12-30T00:06:44.911+0000] {logging_mixin.py:137} INFO - IBM
+[2022-12-30T00:06:46.343+0000] {logging_mixin.py:137} INFO - NVDA
+[2022-12-30T00:06:47.280+0000] {logging_mixin.py:137} INFO - ORCL
+[2022-12-30T00:06:48.019+0000] {logging_mixin.py:137} INFO - INTC
+[2022-12-30T00:06:48.824+0000] {logging_mixin.py:137} INFO - QCOM
+[2022-12-30T00:06:49.353+0000] {logging_mixin.py:137} INFO - AMD
+[2022-12-30T00:06:50.164+0000] {logging_mixin.py:137} INFO - TSM
+[2022-12-30T00:06:51.093+0000] {python.py:177} INFO - Done. Returned value was: None
+[2022-12-30T00:06:51.104+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=a_initial_load, task_id=create_views, execution_date=20221228T000000, start_date=20221230T000639, end_date=20221230T000651
+[2022-12-30T00:06:51.161+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2022-12-30T00:06:51.177+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

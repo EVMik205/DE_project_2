@@ -1,0 +1,536 @@
+[2022-12-30T00:00:28.305+0000] {processor.py:153} INFO - Started process (PID=34601) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:00:28.305+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:00:28.306+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:00:28.306+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:00:28.613+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:00:28.612+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:00:28.618+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:00:28.636+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:00:28.636+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:00:28.654+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:00:28.654+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:00:28.666+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.364 seconds
+[2022-12-30T00:00:58.706+0000] {processor.py:153} INFO - Started process (PID=34704) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:00:58.708+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:00:58.709+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:00:58.709+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:00:59.042+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:00:59.041+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:00:59.048+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:00:59.070+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:00:59.070+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:00:59.094+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:00:59.094+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:00:59.111+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.408 seconds
+[2022-12-30T00:01:29.630+0000] {processor.py:153} INFO - Started process (PID=34786) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:01:29.631+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:01:29.631+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:01:29.631+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:01:29.912+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:01:29.911+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:01:29.917+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:01:29.933+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:01:29.933+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:01:29.949+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:01:29.949+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:01:29.959+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.332 seconds
+[2022-12-30T00:02:00.212+0000] {processor.py:153} INFO - Started process (PID=34888) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:02:00.213+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:02:00.214+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:02:00.214+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:02:00.496+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:02:00.495+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:02:00.503+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:02:00.520+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:02:00.520+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:02:00.538+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:02:00.538+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:02:00.705+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.496 seconds
+[2022-12-30T00:02:30.735+0000] {processor.py:153} INFO - Started process (PID=34970) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:02:30.736+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:02:30.737+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:02:30.737+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:02:31.017+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:02:31.017+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:02:31.022+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:02:31.038+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:02:31.038+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:02:31.055+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:02:31.055+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:02:31.071+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.339 seconds
+[2022-12-30T00:03:01.300+0000] {processor.py:153} INFO - Started process (PID=35072) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:03:01.300+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:03:01.301+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:03:01.301+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:03:01.590+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:03:01.589+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:03:01.594+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:03:01.612+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:03:01.611+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:03:01.627+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:03:01.627+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:03:01.643+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.346 seconds
+[2022-12-30T00:03:31.761+0000] {processor.py:153} INFO - Started process (PID=35161) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:03:31.768+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:03:31.769+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:03:31.769+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:03:32.059+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:03:32.058+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:03:32.064+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:03:32.083+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:03:32.082+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:03:32.099+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:03:32.098+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:03:32.110+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.352 seconds
+[2022-12-30T00:04:02.260+0000] {processor.py:153} INFO - Started process (PID=35256) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:04:02.261+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:04:02.261+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:04:02.261+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:04:02.610+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:04:02.609+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:04:02.615+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:04:02.636+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:04:02.636+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:04:02.654+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:04:02.654+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:04:02.664+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.406 seconds
+[2022-12-30T00:04:32.866+0000] {processor.py:153} INFO - Started process (PID=35358) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:04:32.867+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:04:32.868+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:04:32.868+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:04:33.194+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:04:33.194+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:04:33.199+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:04:33.218+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:04:33.217+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:04:33.235+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:04:33.235+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:04:33.245+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.382 seconds
+[2022-12-30T00:05:03.556+0000] {processor.py:153} INFO - Started process (PID=35440) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:05:03.556+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:05:03.557+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:05:03.557+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:05:03.838+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:05:03.838+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:05:03.843+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:05:03.860+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:05:03.860+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:05:03.876+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:05:03.876+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:05:03.887+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.334 seconds
+[2022-12-30T00:05:34.203+0000] {processor.py:153} INFO - Started process (PID=35542) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:05:34.205+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:05:34.205+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:05:34.205+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:05:34.486+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:05:34.485+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:05:34.490+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:05:34.507+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:05:34.507+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:05:34.528+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:05:34.527+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:05:34.550+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.350 seconds
+[2022-12-30T00:06:04.592+0000] {processor.py:153} INFO - Started process (PID=35624) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:06:04.593+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:06:04.593+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:06:04.593+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:06:04.868+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:06:04.868+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:06:04.873+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:06:04.888+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:06:04.888+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:06:04.905+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:06:04.905+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:06:04.915+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.326 seconds
+[2022-12-30T00:06:35.261+0000] {processor.py:153} INFO - Started process (PID=35726) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:06:35.262+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:06:35.262+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:06:35.262+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:06:35.584+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:06:35.583+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:06:35.590+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:06:35.609+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:06:35.609+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:06:35.626+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:06:35.626+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:06:35.638+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.378 seconds
+[2022-12-30T00:07:06.152+0000] {processor.py:153} INFO - Started process (PID=35828) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:07:06.152+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:07:06.153+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:07:06.153+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:07:06.487+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:07:06.487+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:07:06.492+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:07:06.509+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:07:06.509+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:07:06.526+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:07:06.526+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:07:06.536+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.387 seconds
+[2022-12-30T00:07:37.200+0000] {processor.py:153} INFO - Started process (PID=35910) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:07:37.201+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:07:37.202+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:07:37.202+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:07:37.485+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:07:37.485+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:07:37.490+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:07:37.509+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:07:37.508+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:07:37.530+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:07:37.530+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:07:37.549+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.352 seconds
+[2022-12-30T00:08:07.909+0000] {processor.py:153} INFO - Started process (PID=36012) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:08:07.910+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:08:07.910+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:08:07.910+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:08:08.227+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:08:08.226+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:08:08.232+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:08:08.252+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:08:08.252+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:08:08.270+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:08:08.270+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:08:08.283+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.376 seconds
+[2022-12-30T00:08:38.344+0000] {processor.py:153} INFO - Started process (PID=36094) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:08:38.345+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:08:38.345+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:08:38.345+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:08:38.632+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:08:38.631+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:08:38.637+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:08:38.653+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:08:38.653+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:08:38.669+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:08:38.669+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:08:38.679+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.339 seconds
+[2022-12-30T00:09:08.938+0000] {processor.py:153} INFO - Started process (PID=36196) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:09:08.945+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:09:08.945+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:09:08.945+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:09:09.226+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:09:09.226+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:09:09.231+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:09:09.249+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:09:09.248+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:09:09.264+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:09:09.264+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:09:09.274+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.340 seconds
+[2022-12-30T00:09:39.643+0000] {processor.py:153} INFO - Started process (PID=36287) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:09:39.644+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:09:39.644+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:09:39.644+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:09:39.981+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:09:39.981+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:09:39.987+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:09:40.004+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:09:40.003+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:09:40.020+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:09:40.020+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:09:40.030+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.391 seconds
+[2022-12-30T00:10:10.249+0000] {processor.py:153} INFO - Started process (PID=36380) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:10:10.251+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:10:10.251+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:10:10.251+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:10:10.540+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:10:10.540+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:10:10.545+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:10:10.561+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:10:10.561+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:10:10.578+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:10:10.578+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:10:10.589+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.343 seconds
+[2022-12-30T00:10:40.824+0000] {processor.py:153} INFO - Started process (PID=36482) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:10:40.825+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:10:40.826+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:10:40.826+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:10:41.104+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:10:41.103+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:10:41.109+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:10:41.126+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:10:41.126+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:10:41.146+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:10:41.146+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:10:41.163+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.342 seconds
+[2022-12-30T00:11:11.228+0000] {processor.py:153} INFO - Started process (PID=36564) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:11:11.229+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:11:11.230+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:11:11.230+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:11:11.521+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:11:11.520+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:11:11.527+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:11:11.544+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:11:11.544+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:11:11.561+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:11:11.561+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:11:11.579+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.354 seconds
+[2022-12-30T00:11:41.772+0000] {processor.py:153} INFO - Started process (PID=36666) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:11:41.773+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:11:41.773+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:11:41.773+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:11:42.055+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:11:42.054+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:11:42.061+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:11:42.078+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:11:42.077+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:11:42.095+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:11:42.095+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:11:42.116+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.347 seconds
+[2022-12-30T00:12:12.443+0000] {processor.py:153} INFO - Started process (PID=36757) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:12:12.443+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:12:12.444+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:12:12.444+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:12:12.783+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:12:12.782+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:12:12.788+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:12:12.806+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:12:12.806+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:12:12.824+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:12:12.824+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:12:12.835+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.395 seconds
+[2022-12-30T00:12:42.959+0000] {processor.py:153} INFO - Started process (PID=36850) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:12:42.961+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:12:42.961+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:12:42.961+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:12:43.259+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:12:43.258+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:12:43.266+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:12:43.284+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:12:43.284+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:12:43.301+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:12:43.301+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:12:43.312+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.356 seconds
+[2022-12-30T00:13:13.413+0000] {processor.py:153} INFO - Started process (PID=36952) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:13:13.414+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:13:13.415+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:13:13.415+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:13:13.699+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:13:13.698+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:13:13.704+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:13:13.721+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:13:13.721+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:13:13.737+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:13:13.737+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:13:13.753+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.343 seconds
+[2022-12-30T00:13:43.817+0000] {processor.py:153} INFO - Started process (PID=37034) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:13:43.817+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:13:43.818+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:13:43.818+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:13:44.121+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:13:44.121+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:13:44.127+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:13:44.143+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:13:44.143+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:13:44.160+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:13:44.160+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:13:44.176+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.361 seconds
+[2022-12-30T00:14:14.210+0000] {processor.py:153} INFO - Started process (PID=37136) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:14:14.211+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:14:14.212+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:14:14.212+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:14:14.521+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:14:14.520+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:14:14.527+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:14:14.543+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:14:14.543+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:14:14.560+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:14:14.560+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:14:14.570+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.362 seconds
+[2022-12-30T00:14:44.819+0000] {processor.py:153} INFO - Started process (PID=37218) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:14:44.821+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:14:44.821+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:14:44.821+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:14:45.120+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:14:45.119+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:14:45.125+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:14:45.142+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:14:45.142+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:14:45.163+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:14:45.162+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:14:45.172+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.355 seconds
+[2022-12-30T00:15:15.219+0000] {processor.py:153} INFO - Started process (PID=37320) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:15:15.219+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:15:15.220+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:15:15.220+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:15:15.512+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:15:15.512+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:15:15.517+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:15:15.535+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:15:15.534+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:15:15.551+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:15:15.551+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:15:15.571+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.355 seconds
+[2022-12-30T00:15:46.230+0000] {processor.py:153} INFO - Started process (PID=37422) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:15:46.231+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:15:46.232+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:15:46.232+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:15:46.555+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:15:46.555+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:15:46.562+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:15:46.579+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:15:46.579+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:15:46.600+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:15:46.600+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:15:46.614+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.387 seconds
+[2022-12-30T00:16:17.118+0000] {processor.py:153} INFO - Started process (PID=37504) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:16:17.118+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:16:17.119+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:16:17.119+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:16:17.468+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:16:17.468+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:16:17.474+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:16:17.498+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:16:17.498+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:16:17.522+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:16:17.522+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:16:17.537+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.421 seconds
+[2022-12-30T00:16:47.617+0000] {processor.py:153} INFO - Started process (PID=37606) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:16:47.618+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:16:47.618+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:16:47.618+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:16:47.921+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:16:47.920+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:16:47.926+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:16:47.943+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:16:47.942+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:16:47.960+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:16:47.960+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:16:47.970+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.355 seconds
+[2022-12-30T00:17:18.065+0000] {processor.py:153} INFO - Started process (PID=37688) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:17:18.067+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:17:18.067+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:17:18.067+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:17:18.375+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:17:18.374+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:17:18.380+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:17:18.399+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:17:18.398+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:17:18.415+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:17:18.415+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:17:18.428+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.366 seconds
+[2022-12-30T00:17:48.745+0000] {processor.py:153} INFO - Started process (PID=37791) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:17:48.745+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:17:48.746+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:17:48.746+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:17:49.050+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:17:49.050+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:17:49.055+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:17:49.072+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:17:49.072+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:17:49.090+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:17:49.090+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:17:49.106+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.365 seconds
+[2022-12-30T00:18:19.191+0000] {processor.py:153} INFO - Started process (PID=37873) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:18:19.193+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:18:19.194+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:18:19.193+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:18:19.502+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:18:19.502+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:18:19.508+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:18:19.526+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:18:19.526+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:18:19.543+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:18:19.543+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:18:19.561+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.372 seconds
+[2022-12-30T00:18:49.650+0000] {processor.py:153} INFO - Started process (PID=37976) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:18:49.651+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:18:49.652+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:18:49.652+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:18:49.963+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:18:49.962+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:18:49.967+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:18:49.985+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:18:49.985+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:18:50.002+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:18:50.002+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:18:50.014+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.366 seconds
+[2022-12-30T00:19:20.288+0000] {processor.py:153} INFO - Started process (PID=38067) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:19:20.289+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:19:20.290+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:19:20.290+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:19:20.689+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:19:20.689+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:19:20.695+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:19:20.713+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:19:20.713+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:19:20.731+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:19:20.730+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:19:20.741+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.456 seconds
+[2022-12-30T00:19:50.999+0000] {processor.py:153} INFO - Started process (PID=38160) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:19:51.000+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:19:51.000+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:19:51.000+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:19:51.298+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:19:51.298+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:19:51.303+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:19:51.320+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:19:51.320+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:19:51.337+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:19:51.337+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:19:51.347+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.351 seconds
+[2022-12-30T00:20:21.759+0000] {processor.py:153} INFO - Started process (PID=38262) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:20:21.760+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:20:21.760+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:20:21.760+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:20:22.069+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:20:22.069+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:20:22.076+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:20:22.095+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:20:22.094+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:20:22.112+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:20:22.112+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:20:22.122+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.367 seconds
+[2022-12-30T00:20:52.497+0000] {processor.py:153} INFO - Started process (PID=38345) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:20:52.497+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:20:52.498+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:20:52.497+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:20:52.799+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:20:52.798+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:20:52.808+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:20:52.827+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:20:52.827+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:20:52.845+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:20:52.845+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:20:52.864+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.370 seconds
+[2022-12-30T00:21:22.934+0000] {processor.py:153} INFO - Started process (PID=38447) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:21:22.934+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:21:22.934+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:21:22.934+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:21:23.249+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:21:23.249+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:21:23.255+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:21:23.273+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:21:23.273+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:21:23.297+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:21:23.297+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:21:23.310+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.379 seconds
+[2022-12-30T00:21:53.717+0000] {processor.py:153} INFO - Started process (PID=38530) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:21:53.718+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:21:53.718+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:21:53.718+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:21:54.015+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:21:54.014+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:21:54.019+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:21:54.037+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:21:54.037+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:21:54.064+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:21:54.064+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:21:54.074+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.359 seconds
+[2022-12-30T00:22:24.391+0000] {processor.py:153} INFO - Started process (PID=38632) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:22:24.392+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:22:24.393+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:22:24.393+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:22:24.695+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:22:24.694+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:22:24.699+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:22:24.718+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:22:24.718+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:22:24.735+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:22:24.735+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:22:24.746+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.357 seconds
+[2022-12-30T00:22:54.926+0000] {processor.py:153} INFO - Started process (PID=38734) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:22:54.927+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:22:54.928+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:22:54.928+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:22:55.295+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:22:55.294+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:22:55.301+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:22:55.320+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:22:55.320+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:22:55.338+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:22:55.338+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:22:55.351+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.428 seconds
+[2022-12-30T00:23:25.551+0000] {processor.py:153} INFO - Started process (PID=38816) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:23:25.552+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:23:25.553+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:23:25.553+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:23:25.863+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:23:25.862+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:23:25.868+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:23:25.885+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:23:25.885+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:23:25.903+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:23:25.903+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:23:25.924+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.376 seconds
+[2022-12-30T00:23:56.286+0000] {processor.py:153} INFO - Started process (PID=38918) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:23:56.287+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:23:56.288+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:23:56.287+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:23:56.589+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:23:56.589+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:23:56.596+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:23:56.615+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:23:56.615+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:23:56.632+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:23:56.632+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:23:56.642+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.359 seconds
+[2022-12-30T00:24:26.817+0000] {processor.py:153} INFO - Started process (PID=39000) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:24:26.818+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:24:26.818+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:24:26.818+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:24:27.127+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:24:27.126+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:24:27.132+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:24:27.152+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:24:27.152+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:24:27.180+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:24:27.179+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:24:27.191+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.377 seconds
+[2022-12-30T00:24:57.230+0000] {processor.py:153} INFO - Started process (PID=39102) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:24:57.231+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:24:57.232+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:24:57.232+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:24:57.538+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:24:57.538+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:24:57.544+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:24:57.566+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:24:57.565+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:24:57.584+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:24:57.584+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:24:57.604+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.377 seconds
+[2022-12-30T00:25:27.727+0000] {processor.py:153} INFO - Started process (PID=39184) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:25:27.729+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:25:27.729+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:25:27.729+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:25:28.042+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:25:28.041+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:25:28.048+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:25:28.070+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:25:28.070+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:25:28.087+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:25:28.087+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:25:28.098+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.374 seconds
+[2022-12-30T00:25:58.401+0000] {processor.py:153} INFO - Started process (PID=39286) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:25:58.402+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:25:58.403+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:25:58.403+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:25:58.706+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:25:58.705+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:25:58.711+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:25:58.730+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:25:58.730+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:25:58.748+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:25:58.748+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:25:58.758+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.360 seconds
+[2022-12-30T00:26:28.855+0000] {processor.py:153} INFO - Started process (PID=39377) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:26:28.857+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:26:28.858+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:26:28.858+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:26:29.203+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:26:29.202+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:26:29.210+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:26:29.230+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:26:29.229+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:26:29.248+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:26:29.248+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:26:29.267+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.416 seconds
+[2022-12-30T00:26:59.624+0000] {processor.py:153} INFO - Started process (PID=39471) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:26:59.626+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:26:59.626+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:26:59.626+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:26:59.956+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:26:59.955+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:26:59.962+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:26:59.980+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:26:59.979+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:26:59.999+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:26:59.999+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:27:00.013+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.392 seconds
+[2022-12-30T00:27:30.360+0000] {processor.py:153} INFO - Started process (PID=39573) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:27:30.367+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:27:30.368+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:27:30.368+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:27:30.679+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:27:30.678+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:27:30.684+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:27:30.701+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:27:30.701+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:27:30.720+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:27:30.720+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:27:30.732+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.374 seconds
+[2022-12-30T00:28:00.943+0000] {processor.py:153} INFO - Started process (PID=39655) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:28:00.943+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:28:00.944+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:28:00.944+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:28:01.238+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:28:01.237+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:28:01.243+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:28:01.261+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:28:01.261+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:28:01.278+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:28:01.278+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:28:01.289+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.349 seconds
+[2022-12-30T00:28:31.476+0000] {processor.py:153} INFO - Started process (PID=39757) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:28:31.477+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:28:31.477+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:28:31.477+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:28:31.878+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:28:31.878+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:28:31.886+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:28:31.911+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:28:31.911+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:28:31.931+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:28:31.930+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:28:31.945+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.473 seconds
+[2022-12-30T00:29:02.360+0000] {processor.py:153} INFO - Started process (PID=39839) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:29:02.361+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:29:02.361+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:29:02.361+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:29:02.674+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:29:02.673+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:29:02.680+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:29:02.698+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:29:02.698+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:29:02.716+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:29:02.716+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:29:02.733+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.377 seconds
+[2022-12-30T00:29:33.070+0000] {processor.py:153} INFO - Started process (PID=39941) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:29:33.071+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:29:33.072+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:29:33.072+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:29:33.396+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:29:33.396+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:29:33.401+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:29:33.420+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:29:33.420+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:29:33.445+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:29:33.445+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:29:33.458+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.391 seconds
+[2022-12-30T00:30:03.692+0000] {processor.py:153} INFO - Started process (PID=40030) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:30:03.700+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:30:03.700+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:30:03.700+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:30:04.016+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:30:04.015+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:30:04.021+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:30:04.040+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:30:04.039+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:30:04.058+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:30:04.058+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:30:04.078+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.388 seconds
+[2022-12-30T00:30:34.194+0000] {processor.py:153} INFO - Started process (PID=40125) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:30:34.202+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:30:34.202+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:30:34.202+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:30:34.513+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:30:34.513+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:30:34.518+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:30:34.536+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:30:34.536+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:30:34.554+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:30:34.553+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:30:34.566+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.375 seconds
+[2022-12-30T00:31:04.707+0000] {processor.py:153} INFO - Started process (PID=40227) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:31:04.709+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:31:04.710+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:31:04.709+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:31:05.056+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:31:05.055+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:31:05.063+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:31:05.082+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:31:05.082+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:31:05.102+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:31:05.102+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:31:05.117+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.412 seconds
+[2022-12-30T00:31:35.238+0000] {processor.py:153} INFO - Started process (PID=40309) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:31:35.245+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:31:35.245+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:31:35.245+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:31:35.562+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:31:35.561+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:31:35.567+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:31:35.586+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:31:35.585+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:31:35.604+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:31:35.604+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:31:35.615+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.380 seconds
+[2022-12-30T00:32:05.974+0000] {processor.py:153} INFO - Started process (PID=40412) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:32:05.974+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:32:05.975+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:32:05.975+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:32:06.285+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:32:06.284+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:32:06.291+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:32:06.319+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:32:06.318+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:32:06.336+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:32:06.336+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:32:06.349+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.379 seconds
+[2022-12-30T00:32:36.431+0000] {processor.py:153} INFO - Started process (PID=40494) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:32:36.432+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:32:36.432+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:32:36.432+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:32:36.748+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:32:36.748+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:32:36.753+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:32:36.772+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:32:36.771+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:32:36.789+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:32:36.789+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:32:36.804+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.375 seconds
+[2022-12-30T00:33:07.273+0000] {processor.py:153} INFO - Started process (PID=40596) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:33:07.273+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:33:07.274+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:33:07.274+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:33:07.581+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:33:07.580+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:33:07.586+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:33:07.604+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:33:07.604+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:33:07.622+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:33:07.622+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:33:07.639+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.369 seconds
+[2022-12-30T00:33:37.969+0000] {processor.py:153} INFO - Started process (PID=40678) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:33:37.970+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:33:37.971+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:33:37.970+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:33:38.275+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:33:38.274+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:33:38.283+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:33:38.303+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:33:38.303+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:33:38.323+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:33:38.323+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:33:38.343+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.378 seconds
+[2022-12-30T00:34:08.486+0000] {processor.py:153} INFO - Started process (PID=40780) to work on /opt/airflow/dags/initial_load.py
+[2022-12-30T00:34:08.487+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/initial_load.py for tasks to queue
+[2022-12-30T00:34:08.487+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:34:08.487+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:34:08.792+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:34:08.791+0000] {base.py:73} INFO - Using connection ID 'pg_conn' for task execution.
+[2022-12-30T00:34:08.798+0000] {processor.py:753} INFO - DAG(s) dict_keys(['a_initial_load']) retrieved from /opt/airflow/dags/initial_load.py
+[2022-12-30T00:34:08.816+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:34:08.816+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-30T00:34:08.834+0000] {logging_mixin.py:137} INFO - [2022-12-30T00:34:08.834+0000] {dag.py:3427} INFO - Setting next_dagrun for a_initial_load to None, run_after=None
+[2022-12-30T00:34:08.852+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/initial_load.py took 0.369 seconds
